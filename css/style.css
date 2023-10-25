@@ -1,0 +1,19 @@
+/*RESET*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+}
+
+/* Header*/
+.main-header{
+    margin: 10px 20px;
+    font-size: 2em;
+
+}
+h1{
+    display: inline-block;
+
+}
