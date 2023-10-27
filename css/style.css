@@ -4,8 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    
+
 }
+ul{
+    padding-left: 30px;
+}
+
+/* fine reset */
 body{
       background-color: #f6f8f9;
 }
@@ -28,15 +35,18 @@ img{
 
 /* main */
 
-.main-box{
+.container{
     width: 75%;
-    margin: auto;  
+    margin: auto;
 }
-.button-box{
+
+ /* sezione alta bottoni */
+
+ .button-box{
     background-color: white;
-    padding: 10px 50px;
+    padding: 10px 30px;
 }
-    
+
 #task{
     background-color: rgb(133, 180, 237);
     color: white;
@@ -52,4 +62,10 @@ img{
     height: 25px ;
     width: 80px;
     display: inline-block;
+}
+
+/* fine sezione alta bottoni */
+
+ul{
+    list-style: none;
 }
