@@ -20,6 +20,29 @@ li{
 body{
       background-color: #f6f8f9;
 }
+.cross{
+    color: red;
+   width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+}
+
+.check{
+    color: green;
+    width: 20px;
+    height: 20px;
+    border: 1px solid green;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+}
 
 /* Header*/
 
