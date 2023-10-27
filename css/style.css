@@ -6,14 +6,48 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;;
 }
+body{
+      background-color: #f6f8f9;
+}
 
 /* Header*/
-.main-header{
-    margin: 10px 20px;
-    font-size: 2em;
 
+.header{
+    padding: 10px 20px;
+    font-size: 2em;
+    margin-bottom: 50px;
+    background-color: white;
 }
 h1{
     display: inline-block;
+    vertical-align: middle;
+}
+img{
+    vertical-align: middle;
+}
 
+/* main */
+
+.main-box{
+    width: 75%;
+    margin: auto;  
+}
+.button-box{
+    background-color: white;
+    }
+#task{
+    background-color: rgb(133, 180, 237);
+    color: white;
+    border: none;
+}
+#section{
+    background-color: white;
+    color: grey;
+}
+.button{
+    border: 1px solid grey;
+    border-radius: 10%;
+    height: 25px ;
+    width: 80px;
+    display: inline-block;
 }
