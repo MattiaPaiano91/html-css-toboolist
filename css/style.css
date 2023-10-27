@@ -34,7 +34,9 @@ img{
 }
 .button-box{
     background-color: white;
-    }
+    padding: 10px 50px;
+}
+    
 #task{
     background-color: rgb(133, 180, 237);
     color: white;
